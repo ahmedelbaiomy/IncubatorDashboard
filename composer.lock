@@ -4,55 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "361738ca58c81e74b25723fa39e3bada",
+    "content-hash": "c3d88fa6639c9463d85260309c03bb68",
     "packages": [
-        {
-            "name": "ahmed-bermawy/laravel-dashboard",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ahmed-bermawy/laravel-dashboard.git",
-                "reference": "d6a2e8b6a8d8bb89eefb1b36e6e324647641935c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ahmed-bermawy/laravel-dashboard/zipball/d6a2e8b6a8d8bb89eefb1b36e6e324647641935c",
-                "reference": "d6a2e8b6a8d8bb89eefb1b36e6e324647641935c",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "laravelDashboard\\DashboardServiceProvider",
-                        "laravelDashboard\\FilesServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "laravelDashboard\\": "src/",
-                    "laravelDashboard\\Packages\\": "src/Packages/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Incubator",
-                    "email": "info@incubator-eg.com"
-                }
-            ],
-            "description": "simple laravel dashboard that you can add it to your project at anytime",
-            "support": {
-                "issues": "https://github.com/ahmed-bermawy/laravel-dashboard/issues",
-                "source": "https://github.com/ahmed-bermawy/laravel-dashboard/tree/main"
-            },
-            "time": "2022-05-19T12:10:46+00:00"
-        },
         {
             "name": "asm89/stack-cors",
             "version": "v2.1.1",
@@ -7431,9 +7384,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "ahmed-bermawy/laravel-dashboard": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
